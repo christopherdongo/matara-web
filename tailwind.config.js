@@ -17,6 +17,7 @@ module.exports = {
     },
     extend: {
       colors: {
+        gray1: "#CCCCCC",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -70,6 +71,10 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      fontFamily:{
+        customSang: ["SangBleuSans"],
+      customArial: ["Arial"]      
+    }
     },
   },
   plugins: [require("tailwindcss-animate")],

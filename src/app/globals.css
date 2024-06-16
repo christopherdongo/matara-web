@@ -75,6 +75,50 @@
     }
   }
 
+  /* fonts */
+
+  @font-face {
+    font-family: "SangBleuSans";
+    font-style: normal;
+    font-weight: 700;
+    src: url('/fonts/sangbleu-sans-bold.ttf') format("truetype");
+  }
+
+  @font-face {
+    font-family: "SangBleuSans";
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/sangbleu-sans-regular.ttf') format("truetype");
+  }
+
+  @font-face {
+    font-family: "SangBleuSans";
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/sangbleu-sans-medium.ttf') format("truetype");
+  }
+
+  @font-face {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/ARIAL.TTF') format("truetype");
+  }
+
+  @font-face {
+    font-family: "Arial";
+    font-style: normal;
+    font-weight: 400;
+    src: url('/fonts/ARIALBD.TTF') format("truetype");
+  }
+  
+  
+
+
+  /*
+  format reset
+  */
+
   html {
     scroll-behavior: smooth;
   }
