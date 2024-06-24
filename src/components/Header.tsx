@@ -20,16 +20,16 @@ const data = [
     icon: BookmarkIcon,
   },
   {
+    name: "como llegar",
+    description: "Ubicación de Matara",
+    href: "#location",
+    icon: MapPinIcon,
+  },
+  {
     name: "Lugares",
     description: "Lugares para Conocer",
     href: "#places",
     icon: MapIcon,
-  },
-  {
-    name: "Ubicación",
-    description: "Ubicación de Matara",
-    href: "#location",
-    icon: MapPinIcon,
   },
   {
     name: "Historia",
@@ -52,15 +52,15 @@ export function Header() {
 
 
   return (
-    <header className={`h-16 w-full fixed z-30 ${scrollPosition > 200 ? "bg-white backdrop-blur-md bg-opacity-20" : "bg-transparent"}`}>
-      <nav className="h-16 w-full flex gap-10 flex-row justify-between lg:pl-4 lg:pr-4">
+    <header className={`h-auto max-w-[1440px] w-full fixed z-30 ${scrollPosition > 200 ? "bg-white backdrop-blur-md bg-opacity-20" : "bg-transparent"}`}>
+      <nav className="h-auto w-full flex gap-10 flex-row justify-between lg:pl-4 lg:pr-4 font-customSang">
         <a className="w-60 flex justify-start items-end pl-4"
         href="#banner"
         >
           <Image
             src={logo_matara}
             alt="Picture of the author"
-            className="cursor-pointer h-14 w-32"
+            className="cursor-pointer w-24 h-12"
           />
         </a>
 
@@ -103,7 +103,7 @@ export function Header() {
                 }
               }}
             >
-              <div className="flex h-10 w-32 flex-name items-center justify-center rounded-lg cursor-pointer hover:bg-gray-100">
+              <div className="flex h-6 w-32 flex-name items-center justify-center rounded-lg cursor-pointer hover:bg-gray-100">
                 <item.icon
                   className="h-6 w-6 text-[#313B94]"
                   aria-hidden="true"

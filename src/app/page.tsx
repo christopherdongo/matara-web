@@ -26,7 +26,7 @@ export default function Home() {
     <main className="flex min-h-screen flex-col relative">
     <Banner />
     <About />
-    {/*<Location/>*/}
+    <Location/>
     <History />
     <Places />
     </main>

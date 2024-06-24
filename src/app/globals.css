@@ -130,6 +130,8 @@
   *, *::before, *::after{ box-sizing: border-box;}
   body {
     min-height: 100dvh;
+    max-width: 1440px;
+    margin: 0 auto;
   }
 
   input, button, textarea, select {

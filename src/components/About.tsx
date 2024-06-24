@@ -2,10 +2,11 @@ import Image from "next/image";
 import lagunaAbout from '@/assets/laguna_matara_about.jpg'
 import mataraVista from '@/assets/matara_vista.jpg'
 
+
 export function About(){
 
     return(
-        <section id="about" className="max-w-screen-2xl pl-5 pr-5 sm:p-0 xl:ml-auto xl:mr-auto grid grid-cols-1 lg:grid-cols-2 mt-20 gap-12">
+        <section id="about" className="max-w-screen-2xl pl-5 pr-5 sm:p-0 xl:ml-auto xl:mr-auto grid grid-cols-1 lg:grid-cols-2 mt-20 gap-12 font-customSang">
             <article className="col-span-1 grid place-content-center items-center sm:pl-10 sm:pr-10 lg:pl-16">
             <h3 className="mb-10">MATARA</h3>
             <span className="font-bold text-2xl">
