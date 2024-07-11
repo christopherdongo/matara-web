@@ -2,7 +2,7 @@ import { Banner } from '@/components/Banner'
 import { Places } from '@/components/Places'
 import { About } from '@/components/About'
 import { History } from '@/components/History'
-import { Location } from '@/components/Location'
+import Location from '@/components/Location'
 import type { Metadata } from "next";
 
 

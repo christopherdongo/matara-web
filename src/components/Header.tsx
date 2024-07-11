@@ -30,13 +30,7 @@ const data = [
     description: "Lugares para Conocer",
     href: "#places",
     icon: MapIcon,
-  },
-  {
-    name: "Historia",
-    description: "Antepasados de Matara",
-    href: "#history",
-    icon: InformationCircleIcon,
-  },
+  }
 ];
 
 export function Header() {
