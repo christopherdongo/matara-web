@@ -2,6 +2,7 @@ import { Banner } from '@/components/Banner'
 import { Places } from '@/components/Places'
 import { About } from '@/components/About'
 import { History } from '@/components/History'
+import { Festivities } from '@/components/Festivities'
 import Location from '@/components/Location'
 import type { Metadata } from "next";
 
@@ -22,13 +23,13 @@ export default function Home() {
 
   return (
    <>
-
     <main className="flex min-h-screen flex-col relative">
     <Banner />
     <About />
     <Location/>
     <History />
     <Places />
+    <Festivities />
     </main>
    </>
   );
